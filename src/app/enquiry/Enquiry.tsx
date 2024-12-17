@@ -37,7 +37,10 @@ const Enquiry = () => {
           </div>
 
           <div className="text-slate-700 pr-42 flex-col flex uppercase">
-            <label htmlFor="adults" className="text-secondary-200 pl-10">
+            <label
+              htmlFor="adults"
+              className="text-sm text-secondary-200 pl-10"
+            >
               ADULTS
             </label>
             <select
@@ -79,7 +82,7 @@ const Enquiry = () => {
             <div className="text-slate-700 pr-24 pl-20 flex-col flex uppercase">
               <label
                 htmlFor="children"
-                className=" pl-6 pb-2  text-secondary-200"
+                className=" pl-6 pb-2 text-sm text-secondary-200"
               >
                 CHILDREN
               </label>
